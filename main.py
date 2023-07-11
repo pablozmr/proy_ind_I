@@ -127,7 +127,7 @@ def stem(text):
 new_df['tags'] = new_df['tags'].apply(stem)
 
 from sklearn.metrics.pairwise import cosine_similarity
-similarity = cosine_similarity(vectors[:10000,:])
+similarity = cosine_similarity(vectors)
 
 @app.get('/recomendacion/{titulo}')
 
