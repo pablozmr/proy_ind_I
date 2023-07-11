@@ -142,8 +142,9 @@ def recomendacion(titulo:str):
     return {'lista recomendada': lista_recomendar}
 
 # Iniciar el servidor de desarrollo con uvicorn
-if __name__ == "__main__":
+def main():
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
 
-    
+if __name__ == "__main__":
+    main()
