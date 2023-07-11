@@ -16,7 +16,7 @@ Estructura de contenido
 
 ## Sobre la API
 
-Aplicación montada en Render: https://deploy-pablozmr-sistema-recomendacion.onrender.com
+Aplicación montada en Render: https://deploy-pablozmr-sistema-recomendacion.onrender.com/docs/
 
 Funciones en la API:
 
